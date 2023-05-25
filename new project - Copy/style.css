@@ -1,0 +1,76 @@
+#main-container {
+    display: flex;  /* */
+    justify-content: center; /* (افقي)وضع العناصر في المنتصف*/
+    align-items: center; /*(عمودي)افقي)وضع العناصر في المنتصف*/
+    background-color: rgb(79, 5, 55); /* لون الخلفية */
+    height: 100vh; /* لون الخلفية يكون في كامل الصفحة*/
+    flex-direction: column; /*يتم ترتيب العناصر عموديًا*/
+}
+
+body {
+    margin: 0px;
+    color: white;
+    direction: rtl;
+}
+
+body,button,input{
+    font-family: 'Cairo', sans-serif; /*"Cairo"، خط محدد اسمه*/
+}
+
+#main-title {
+    font-size: 100px;
+    margin: 0px;
+}
+
+#main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(217, 217, 217);
+    height: 200px;
+    width: 700px;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+#word-input {
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-radius: 100px;
+    padding: 0px 20px;
+}
+
+#submit-btn{
+    height: 50px;
+    border: none;
+    border-radius: 100px;
+    margin: 0px 10px;
+    width: 160px;
+    background-color: rgb(35, 104, 252);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#submit-btn:hover{
+    background-color: rgb(239, 16, 53);
+}
+
+#reply-content {
+    font-size: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(217, 217, 217);
+    height: 400px;
+    width: 700px;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
